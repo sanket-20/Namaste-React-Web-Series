@@ -2,6 +2,6 @@
 
 ## Topics Covered:
 - Visual code setup
-- Hello world in HTML/JS,
+- Hello world in HTML/JS
 - CDN
 - React Hello World
