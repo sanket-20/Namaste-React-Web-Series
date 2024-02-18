@@ -1,0 +1,32 @@
+{
+  "name": "02_igniting_our_app",
+  "version": "1.0.0",
+  "description": "This is Namaste React by Akshay saini",
+  "main": "App.js",
+  "scripts": {
+    "start":"parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "namsate",
+    "react",
+    "akshay",
+    "saini",
+    "namaste react github"
+  ],
+  "author": "Sanket Gupte",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ]
+}
