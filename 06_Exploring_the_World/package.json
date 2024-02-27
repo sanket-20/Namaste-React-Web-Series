@@ -1,0 +1,38 @@
+{
+  "name": "06_Exploring_the_World",
+  "version": "1.0.0",
+  "description": "This is Namaste React by Akshay saini",
+  "app": "./dist/app/index.html",
+  "app-js": "./dist/index.js",
+
+  "targets": {
+    "app": {},
+    "app-js": {}
+  },    
+  
+  "scripts": {
+    "build": "parcel build src/index.html --target app",
+    "build-js": "parcel build src/app.js --target app-js"
+  },
+  "keywords": [
+    "react",
+    "namsate",
+    "react",
+    "akshay",
+    "saini",
+    "namaste react github"
+  ],
+  "author": "Sanket Gupte",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ]
+}

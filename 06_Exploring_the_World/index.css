@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.logo{
+    width: 140px;
+}
+
+.nav-items{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.nav-items li{
+    list-style: none;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.restaurant-container, .shimmer-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.restaurant-card{
+    border: 1px solid black;
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+    height: 300px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.restaurant-card img{
+    width: 100%;
+}
+
+.filter-btn, .filter{
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 19px;
+    margin-top: 10px;
+}
+
+
+/* shimmer css */
+
+.shimmer-card{
+    background-color: gainsboro;
+    width: 250px;
+    padding: 10px;
+    height: 300px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.shimmer-btn {
+    background-color: gainsboro;
+    width: 200px;
+    padding: 10px;
+    height: 100px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+
+.shimmer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.shimmer-logo {
+    width: 140px;
+}
+
+.shimmer-nav {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gainsboro;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+
+.login-btn {
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 19px;
+    margin-top: 10px;
+}
+
+
+.filter {
+    display: flex;
+}
+.filter input{
+    padding: 10px;
+    width: 300px;
+}
+
+.filter button{
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 19px;
+    margin-top: 10px;
+}
