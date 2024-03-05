@@ -2,9 +2,18 @@
   "name": "02_igniting_our_app",
   "version": "1.0.0",
   "description": "This is Namaste React by Akshay saini",
-  "main": "App.js",
+
+  "app": "./dist/app/index.html",
+  "app-js": "./dist/index.js",
+
+  "targets": {
+    "app": {},
+    "app-js": {}
+  },
+  
   "scripts": {
-    "test": "jest"
+    "build": "parcel build index.html --target app",
+    "build-js": "parcel build App.js --target app-js"
   },
   "keywords": [
     "react",
